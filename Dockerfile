@@ -11,4 +11,4 @@ RUN pip install /yolov5/requirements.txt
 
 EXPOSE 8080
 
-CMD ["python3", "/yolov5/train.py --data clearml://c431349cf9b3469fa0231d5cb4eebf3b --weights yolov5s.pt "]
+CMD ["python3", "/yolov5/train.py --data clearml://142921a087994b6399ba353fffeac7ff --weights yolov5s.pt "]
