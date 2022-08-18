@@ -2,7 +2,7 @@ FROM   image
 
 WORKDIR yolo
 
-COPY . /yolo
+COPY https://github.com/astro1307/vis_yolo.git  /yolo
 
 # Install python dependencies
 RUN sudo apt update
